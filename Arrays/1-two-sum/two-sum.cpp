@@ -1,6 +1,6 @@
 class Solution {
 public:
-// Two-pointers 
+// Nested Loops
     vector<int> twoSum(vector<int>& n, int target) {
         for(int i = 0; i < n.size(); i++) {
             for(int j = i + 1; j < n.size(); j++) {
